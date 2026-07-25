@@ -220,8 +220,7 @@ virtual-hugs/
 
 ├── README.md
 ├── CONTRIBUTING.md
-├── GITHUB_BASICS.md
-└── LEARNING_RESOURCES.md
+
 ```
 
 ---
