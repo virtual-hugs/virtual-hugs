@@ -91,7 +91,7 @@ If you have never used GitHub before, don't worry!
 
 Read:
 
-📌 [GitHub Basics Guide](GITHUB_BASICS.md)
+📌 [GitHub Basics Guide](docs/GITHUB_BASICS.md)
 
 You will learn:
 
@@ -142,7 +142,7 @@ No problem!
 
 We created a learning guide with free resources to help you build the necessary skills.
 
-📌 [Learning Resources](LEARNING_RESOURCES.md)
+📌 [Learning Resources](docs/LEARNING_RESOURCES.md)
 
 You can learn while contributing.
 
