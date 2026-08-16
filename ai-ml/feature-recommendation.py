@@ -1,3 +1,9 @@
+import pygame
+
+pygame.mixer.init()
+pygame.mixer.music.load("ai-ml/lofi.mp3")
+pygame.mixer.music.play(-1)
+
 print("How are you feeling?")
 print("1. Stressed")
 print("2. Tired")
