@@ -1,9 +1,13 @@
+import os
 import pygame
 from recommendation import recommendations
 
 # initialize pygame mixer and load the lofi music
 pygame.mixer.init()
-pygame.mixer.music.load("ai-ml/lofi.mp3")
+
+base_dir = os.path.dirname(__file__)
+music_path = os.path.join(base_dir, 'ai-ml', 'lofi.mp3')
+pygame.mixer.music.load(music_path)
 pygame.mixer.music.play(-1) # play the music in a loop
 
 # made an universal function that validate if the user enter write number
