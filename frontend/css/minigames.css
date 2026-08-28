@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/** header **/
+nav {
+    padding: 1vh;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav li {
+    margin-right: 3vw;
+}
+
+nav li a {
+    color: rgb(20, 113, 110);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/** main **/
+.game-container {
+    margin: auto;
+    width: 48%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 6vw;
+    align-items: center;
+}
+
+.game-box {
+    background-color: rgb(20, 113, 110); 
+    color: white;
+    height: 40vh;
+    width: 20vw;
+}
