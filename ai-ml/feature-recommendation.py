@@ -6,7 +6,7 @@ from recommendation import recommendations
 pygame.mixer.init()
 
 base_dir = os.path.dirname(__file__)
-music_path = os.path.join(base_dir, 'ai-ml', 'lofi.mp3')
+music_path = os.path.join(base_dir, 'lofi.mp3')
 pygame.mixer.music.load(music_path)
 pygame.mixer.music.play(-1) # play the music in a loop
 
