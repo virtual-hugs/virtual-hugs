@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/** nav **/
+nav {
+    padding: 1vh;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+
+nav li a {
+    color: rgb(20, 113, 110);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/** notes **/
+
+.note, .add-note {
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    box-shadow: -5px 5px rgb(20, 57, 92);
+}
+
+.note p {
+    line-height: 40px;
+}
+
+#username {
+    margin-bottom: 6px;
+}
+
+#username, textarea {
+    background-color:rgb(255, 249, 223);
+    border: none;
+}
+
+.submit-note-button {
+    margin-top: 3px;
+    background-color: black;
+    color: rgb(235, 221, 108);
+    border-style: none;
+    border-radius: 5px;
+}
+
+#note-1 {
+    background-color:rgb(235, 221, 108);
+    transform: rotate(-15deg);
+    float: left;
+    margin-left: 250px;
+}
+
+#note-2 {
+    background-color:rgb(235, 108, 212);
+    transform: rotate(15deg);
+    float: right;
+    margin-right: 250px;
+}
+
+#note-3 {
+    background-color:rgb(119, 235, 108);
+    margin: 50px auto;
+    display: inline-block;
+}
