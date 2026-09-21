@@ -1,31 +1,49 @@
-body {
-    font-family: sans-serif;
+
+body { background-color: white;
     text-align: center;
 }
 
 /** header **/
 nav {
-    padding: 1vh;
+    background-color: #f9e4f5;
+    border-radius: 30px;
+    padding: 2px;
 }
 
 nav ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
+      color: #333;
 }
-
 nav li {
     margin-right: 3vw;
 }
 
+
+
+
 nav li a {
-    color: rgb(20, 113, 110);
     text-decoration: none;
+    display: block;
+    padding: 5px;
+    color: #333;
+    text-decoration: none;
+
+}
+ .navbar a {
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.2s ease, color 0.2s ease;
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
+
+.navbar a:hover {
+     color: #a29870;
+    cursor: pointer;
+    transform: scale(1.2);
+
+    }
 
 /** main **/
 .game-container {
@@ -40,8 +58,11 @@ nav a:hover {
 }
 
 .game-box {
-    background-color: rgb(20, 113, 110); 
-    color: white;
+    background-color: #f9e4f5; 
+    color: black;
     height: 40vh;
     width: 20vw;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 10vh; 
 }
