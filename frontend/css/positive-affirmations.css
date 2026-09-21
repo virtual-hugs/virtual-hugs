@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.filter-box {
+    height: 100px;
+    width: 40vw;
+    max-width: 275px;
+    border: 5px solid red;
+   
+}
+
+.affirm-box {
+    display: flex;
+    justify-content: center;
+    border: 5px solid green;
+    height: 200px;
+    width: 700px;
+   
+}
+
+.affirm {
+    display: inline-block;
+    width: 40%;
+    height: 40%;
+    max-width: 200px;
+    max-height: 200px;
+    border: 5px solid blue;
+}
+
+/** nav **/
+nav {
+    padding: 1vh;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+
+nav li a {
+    color: rgb(20, 113, 110);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
